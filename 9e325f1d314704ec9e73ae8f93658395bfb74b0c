@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "79e70cd4_08d05288",
+        "filename": ".travis.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1015007
+      },
+      "writtenOn": "2018-09-17T20:59:03Z",
+      "side": 1,
+      "message": "Removing no operation is a good idea",
+      "revId": "9e325f1d314704ec9e73ae8f93658395bfb74b0c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
