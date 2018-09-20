@@ -1,8 +1,7 @@
 dist: trusty
 sudo: required
 language: java
-install: true
-jdk: oraclejdk7
+#jdk: oraclejdk7
 
 #addons:
 #  apt:
