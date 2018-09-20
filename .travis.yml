@@ -8,14 +8,14 @@ jdk: oraclejdk8
 #  apt:
 #    packages:
 
-before_install:
+#before_install:
 #  - sudo apt-get update
-  - sudo apt-get --yes --force-yes install opam
-  - opam init
+#  - sudo apt-get --yes --force-yes install opam
+#  - opam init
   
 script:
- - chmod 777 infer.sh
- - ./infer.sh
- - mvn clean install
+# - chmod 777 infer.sh
+# - ./infer.sh
+ - mvn clean install infer:infer
  #- infer -- mvn package -Pdev
  
