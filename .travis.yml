@@ -1,8 +1,13 @@
 language: java
 install: true
+dist: trusty
+sudo: required
+jdk: oraclejdk8
+
 script:
+ - apt install opam
  - chmod 777 infer.sh
  - ./infer.sh
  - mvn clean install
- - infer -- mvn package -Pdev
+ #- infer -- mvn package -Pdev
  
