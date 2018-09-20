@@ -13,7 +13,7 @@ language: java
 #  - opam init
   
 script:
- - curl https://github.com/facebook/infer/releases/download/v0.15.0/infer-linux64-v0.15.0.tar.xz | tar -x
+ - curl https://github.com/facebook/infer/releases/download/v0.15.0/infer-linux64-v0.15.0.tar.xz | tar -xJ
  - export PATH=`pwd`/infer/bin:$PATH
 # - chmod 777 infer.sh
 # - ./infer.sh
