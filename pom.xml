@@ -43,7 +43,7 @@
     <plugin>
   		 <groupId>com.anthemengineering.mojo</groupId>
     	 <artifactId>infer-maven-plugin</artifactId>
-    	 <version>0.1.0</version>
+    	 <version>0.15.0</version>
 	     <configuration>
 	        <consoleOut>false</consoleOut>
 	        <downloadUrl>https://github.com/facebook/infer/releases/download/v0.15.0/infer-linux64-v0.15.0.tar.xz</downloadUrl>
