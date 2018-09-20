@@ -36,21 +36,21 @@
       
     <plugin>
     <groupId>com.anthemengineering.mojo</groupId>
-    <artifactId>infer-maven-plugin</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
-    <configuration>
-        <consoleOut>false</consoleOut>
-    </configuration>
-    <executions>
-        <execution>
-            <phase>verify</phase>
-            <id>infer</id>
-            <goals>
-                <goal>infer</goal>
-            </goals>
-        </execution>
-    </executions>
-</plugin>   
+	    <artifactId>infer-maven-plugin</artifactId>
+	    <version>0.1.0-SNAPSHOT</version>
+	    <configuration>
+	        <consoleOut>false</consoleOut>
+	    </configuration>
+	    <executions>
+	        <execution>
+	            <phase>verify</phase>
+	            <id>infer</id>
+	            <goals>
+	                <goal>infer</goal>
+	            </goals>
+	        </execution>
+	    </executions>
+	</plugin>   
     </plugins>
   </build>
   
