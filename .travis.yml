@@ -10,7 +10,7 @@ jdk: oraclejdk8
 
 before_install:
 #  - sudo apt-get update
-  - sudo apt-get install opam
+  - sudo apt-get -y install opam
   - opam init
   
 script:
