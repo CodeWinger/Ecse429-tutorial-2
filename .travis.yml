@@ -1,11 +1,14 @@
-language: java
-install: true
 dist: trusty
 sudo: required
+language: java
+install: true
 jdk: oraclejdk8
 
+#before_install:
+#  - sudo apt-get update
+#  - sudo apt-get install opam
+  
 script:
- - apt install opam
  - chmod 777 infer.sh
  - ./infer.sh
  - mvn clean install
