@@ -7,13 +7,14 @@ language: java
 #  apt:
 #    packages:
 
-#before_install:
-#  - sudo apt-get update
+before_install:
+  - sudo apt-get update
 #  - sudo apt-get --yes --force-yes install opam
 #  - opam init
   
 script:
- - curl https://github.com/facebook/infer/releases/download/v0.15.0/infer-linux64-v0.15.0.tar.xz | tar -xv
+ - curl https://github.com/facebook/infer/releases/download/v0.15.0/infer-linux64-v0.15.0.tar.xz
+ - tar -xJf infer-linux64-v0.15.0.tar.xz
  #- export PATH=`pwd`/infer/bin:$PATH
 # - chmod 777 infer.sh
 # - ./infer.sh
