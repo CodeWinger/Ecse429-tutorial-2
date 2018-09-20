@@ -1,5 +1,6 @@
 language: java
 install: true
 script:
+ - chmod 777 infer.sh
  - ./infer.sh
  - mvn clean install
