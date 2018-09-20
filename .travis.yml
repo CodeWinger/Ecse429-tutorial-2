@@ -13,9 +13,9 @@ before_install:
 #  - opam init
   
 script:
- - curl -SL https://github.com/facebook/infer/releases/download/v0.15.0/infer-linux64-v0.15.0.tar.xz | tar xJv
+ - curl -SL https://github.com/facebook/infer/releases/download/v0.15.0/infer-linux64-v0.15.0.tar.xz | tar xJ
  - ls -a
- - tar -xJf infer-linux64-v0.15.0.tar.xz
+# - tar -xJf infer-linux64-v0.15.0.tar.xz
  #- export PATH=`pwd`/infer/bin:$PATH
 # - chmod 777 infer.sh
 # - ./infer.sh
