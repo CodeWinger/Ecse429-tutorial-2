@@ -4,9 +4,9 @@ language: java
 install: true
 jdk: oraclejdk8
 
-#before_install:
+before_install:
 #  - sudo apt-get update
-#  - sudo apt-get install opam
+  - sudo apt-get install opam
   
 script:
  - chmod 777 infer.sh
