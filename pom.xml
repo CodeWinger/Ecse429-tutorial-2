@@ -46,6 +46,7 @@
     	 <version>0.1.0</version>
 	     <configuration>
 	        <consoleOut>false</consoleOut>
+	        <downloadUrl>https://github.com/facebook/infer/releases/download/v0.15.0/infer-linux64-v0.15.0.tar.xz</downloadUrl>
 	     </configuration>
 	     <executions>
 	        <execution>
