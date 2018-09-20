@@ -16,6 +16,6 @@ jdk: oraclejdk8
 script:
 # - chmod 777 infer.sh
 # - ./infer.sh
- - mvn clean install infer:infer
+ - mvn clean install
  #- infer -- mvn package -Pdev
  
