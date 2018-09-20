@@ -11,7 +11,7 @@ eval `./opam config env`
 
 # Install infer (latest version)
 git clone https://github.com/facebook/infer.git
-cd infer/
+#cd infer/
 make -C infer java
 export PATH=`pwd`/infer/bin:$PATH
 cd ../
