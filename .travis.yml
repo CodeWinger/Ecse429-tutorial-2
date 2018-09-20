@@ -15,7 +15,11 @@ before_install:
 script:
  - curl -SL https://github.com/facebook/infer/releases/download/v0.15.0/infer-linux64-v0.15.0.tar.xz | tar xJ
  - ls -a
- - export PATH=`pwd`/infer-linux64-v0.15.0/infer/bin:$PATH
+ - cd infer-linux64-v0.15.0
+ - ls -a
+ - cd bin
+ - cd ../../
+ - export PATH=`pwd`/infer-linux64-v0.15.0/bin:$PATH
 # - tar -xJf infer-linux64-v0.15.0.tar.xz
  #- export PATH=`pwd`/infer/bin:$PATH
 # - chmod 777 infer.sh
