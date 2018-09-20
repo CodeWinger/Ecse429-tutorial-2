@@ -12,4 +12,9 @@ public class App
         int x = -1;
         System.out.println("ntesting sonar qube");
     }
+    
+    int test() {
+        String s = null;
+        return s.length();
+    }
 }
